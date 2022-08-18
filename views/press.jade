@@ -1,0 +1,49 @@
+extends layout
+
+block content
+    section
+        .container
+            .row
+                h2.title.text-center
+                    =title
+                //title here. no duplicate
+                //if navList
+                .col-sm-3
+                    // nav-bar
+                    .left-sidebar
+                        #accordian.panel-group.category-products
+                            each nav in navList
+                                .panel.panel-default
+                                    .panel-heading
+                                        h4.panel-title
+                                            a(href='#')= nav.name
+                    ///nav-bar
+
+                .col-sm-9
+                    .blog-post-area
+                        .single-blog-post
+                            //h2= title
+                            h3 Services
+
+                            //a(href='#')
+                                img(src='#', alt='Image')
+                            h3 Shipping: 
+                            p Our shipping rates are determied by the sellers, hence shipping varies from location. For local deliveries sellers can choose to post either through mail or a third party courier service
+                            h3 Return :
+                            p We offer a flexible return/refund policy. If the item did not arrived or arrived in a poor condition click the refund button and follow the steps
+                            h3 Payment: 
+                            p We offer a multitude of payment options including Paynow and Paypal
+                            br
+                            h3 Voucher: 
+                            p If you have a voucher code, enter it in the checkout page
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+                            br
+
+
