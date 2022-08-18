@@ -7,9 +7,10 @@ var connection = mysql.createConnection({
     database: 'cilla'
 });
 var config = {
-    host: 'localhost',
-    user: 'root',
-    password: 'cdev',
+    host: 'cilla.c6dlmjbjj6mi.ap-southeast-1.rds.amazonaws.com',
+    user: 'admin',
+    port:'3306',
+    password: 'admin1234',
     database: 'cilla'
 };
 
