@@ -17,7 +17,3 @@ const port= 3000;
  * Create HTTP server.
  */
 
-var server = http.createServer(app)
-}
-
-
