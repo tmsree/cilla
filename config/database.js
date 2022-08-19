@@ -45,5 +45,5 @@ connection.connect(err => {  // test out connetion and console.log error if ther
 }); 
 module.exports = connection;
 module.exports = {
-    RunQuery: RunQuery
+    RunQuery: 
 };
