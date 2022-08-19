@@ -1,9 +1,10 @@
 // database module
 var mysql = require('mysql');
 var connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'cdev',
+    host: 'cilla.c6dlmjbjj6mi.ap-southeast-1.rds.amazonaws.com',
+    port:'3306',
+    user: 'admin',
+    password: 'admin1234',
     database: 'cilla'
 });
 var config = {
