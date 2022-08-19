@@ -44,6 +44,4 @@ connection.connect(err => {  // test out connetion and console.log error if ther
     console.log('Connected To AWS DB');
 }); 
 module.exports = connection;
-module.exports = {
-    RunQuery: 
-};
+module.exports = RunQuery; 
